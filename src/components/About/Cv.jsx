@@ -15,10 +15,9 @@ class Cv extends React.Component {
               paddingBottom: "0.5rem",
             }}
           >
-            <span style={{fontSize:'16px'}}>James Savali,</span><br></br>
-            <strong className="text-bold">
-              Senior Software Engineer
-            </strong>
+            <span style={{ fontSize: "16px" }}>James Savali,</span>
+            <br></br>
+            <strong className="text-bold">Senior Software Engineer</strong>
             <br></br>
             <br></br>
             Email: <label className="text-muted">savalijey@gmail.com</label>
@@ -169,10 +168,9 @@ class Cv extends React.Component {
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
-                      Contributed to the successful completion of 2
-                      projects aimed at facilitating medical insurance claims,
-                      meeting project timelines, and exceeding client
-                      satisfaction.
+                      Contributed to the successful completion of 2 projects
+                      aimed at facilitating medical insurance claims, meeting
+                      project timelines, and exceeding client satisfaction.
                     </li>
                     <li>
                       Once deployed, each of the projects handled more than 2000
