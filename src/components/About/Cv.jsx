@@ -206,4 +206,5 @@ class Cv extends React.Component {
     );
   }
 }
+
 export default Cv;
