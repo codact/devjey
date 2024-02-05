@@ -4,22 +4,23 @@ class Cv extends React.Component {
   render() {
     return (
       <div className="p-1">
+        <hr></hr>
         <div className="row col-md-12">
           <div
             className="text-left col-md-5"
             style={{
               fontSize: "13px",
-              backgroundColor: "#0000ff05",
+              backgroundColor: "#e1e6ff85",
               paddingTop: "0.5rem",
               paddingBottom: "0.5rem",
             }}
           >
-            <span style={{ fontSize: "16px" }}>James Savali,</span>
+            <span style={{ fontSize: "16px" }}><b>James Savali,</b></span>
             <br></br>
-            <strong className="text-bold">Senior Software Engineer</strong>
+            <strong className="text-muted">Senior Software Engineer</strong>
             <br></br>
             <br></br>
-            Email: <label className="text-muted">savalijey@gmail.com</label>
+            Email: <label className="text-mutd">savalijey@gmail.com</label>
             <br></br>
             Languages: English
             <br></br>
@@ -127,8 +128,7 @@ class Cv extends React.Component {
                     <li>
                       Led the development of the ArabMillionaire sports betting
                       and online gaming web application with more than 20k
-                      active users, utilizing React.js & Django, resulting in a
-                      responsive, intuitive and robust user interface.
+                      active users, utilizing React.js & Django, resulting in an intuitive and robust user interface.
                     </li>
                   </ul>
                 </div>
@@ -200,6 +200,7 @@ class Cv extends React.Component {
             </div>
           </div>
         </div>
+        <hr></hr>
       </div>
     );
   }
