@@ -15,7 +15,9 @@ class Cv extends React.Component {
               paddingBottom: "0.5rem",
             }}
           >
-            <span style={{ fontSize: "16px" }}><b>James Savali,</b></span>
+            <span style={{ fontSize: "16px" }}>
+              <b>James Savali,</b>
+            </span>
             <br></br>
             <strong className="text-muted">Senior Software Engineer</strong>
             <br></br>
@@ -55,7 +57,7 @@ class Cv extends React.Component {
               <div className="p-1">
                 Other Tech Skills & Tools
                 <ul className="pl-3">
-                  <li>Web development and integration of payment solutions</li>
+                  <li>Integration of payment solutions</li>
                   <li>
                     CI/CD: Github Actions, AWS, <br /> Digital Ocean
                   </li>
@@ -111,10 +113,10 @@ class Cv extends React.Component {
                   <ul className="pl-3 text-mute">
                     <li>
                       Developing, integrating and maintaining 2 payment
-                      solutions using Python, Django and actively collaborating
-                      with the QA team, to achieve a high level of application
-                      quality.
-                    </li>
+                      solutions using Python, Django.
+                     </li><li>
+Through active collaboration with the QA team, achieved a 20% reduction in reported production bugs, improving application availability.</li> 
+                    
                   </ul>
                 </div>
                 <div className="text-left text-sm" style={{ fontSize: "13px" }}>
@@ -126,9 +128,10 @@ class Cv extends React.Component {
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
-                      Led the development of the ArabMillionaire sports betting
-                      and online gaming web application with more than 20k
-                      active users, utilizing React.js & Django, resulting in an intuitive and robust user interface.
+                      Led the development of ArabMillionaire, a React.js and
+                      Django-based sports betting and online gaming web app,
+                      resulting in an intuitive user interface with 20k+ active
+                      users.
                     </li>
                   </ul>
                 </div>
@@ -139,10 +142,9 @@ class Cv extends React.Component {
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
-                      Orchestrated an nft auctionaing platform which
-                      successfully ran the Dolce & Gabana 'Collezione Genesi'
-                      auction, and the company was able to generate $5.7 Million
-                      worth of sales.
+                      Orchestrated a django-based NFT auction platform,
+                      successfully hosting the Dolce & Gabbana 'Collezione
+                      Genesi' auction, generating $5.7 million in sales.
                     </li>
                   </ul>
                 </div>
@@ -167,15 +169,9 @@ class Cv extends React.Component {
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
-                      Contributed to the successful completion of 2 projects
-                      aimed at facilitating medical insurance claims, meeting
-                      project timelines, and exceeding client satisfaction.
+Contributed to the timely completion of 2 projects aimed at streamlining medical insurance claims.
                     </li>
-                    <li>
-                      Each of the projects handled more than 2000
-                      patient claims on a daily basis, thus streamlining the
-                      process for patients.
-                    </li>
+                    <li> Currently, each project handles over 2000 patient claims daily.</li>
                   </ul>
                 </div>
                 <b>Software Engineer at Andela, Nairobi</b>
