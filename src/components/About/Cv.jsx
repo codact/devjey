@@ -4,7 +4,6 @@ class Cv extends React.Component {
   render() {
     return (
       <div className="p-1">
-        <hr></hr>
         <div className="row col-md-12">
           <div
             className="text-left col-md-5"
@@ -173,7 +172,7 @@ class Cv extends React.Component {
                       project timelines, and exceeding client satisfaction.
                     </li>
                     <li>
-                      Once deployed, each of the projects handled more than 2000
+                      Each of the projects handled more than 2000
                       patient claims on a daily basis, thus streamlining the
                       process for patients.
                     </li>
@@ -201,7 +200,6 @@ class Cv extends React.Component {
             </div>
           </div>
         </div>
-        <hr></hr>
       </div>
     );
   }
