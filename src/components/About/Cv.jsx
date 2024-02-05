@@ -40,7 +40,6 @@ class Cv extends React.Component {
             <div className="container-fluid row" style={{ fontSize: "13px" }}>
               <div className="p-1">
                 Languages & Frameworks
-                <hr className="normal-hr-2"></hr>
                 <ul className="pl-3">
                   <li>Python</li>
                   <li>Flask</li>
@@ -56,7 +55,6 @@ class Cv extends React.Component {
               </div>
               <div className="p-1">
                 Other Tech Skills & Tools
-                <hr className="normal-hr-2"></hr>
                 <ul className="pl-3">
                   <li>Web development and integration of payment solutions</li>
                   <li>
@@ -72,7 +70,6 @@ class Cv extends React.Component {
                 <h6>
                   <b>Education</b>
                 </h6>
-                <hr></hr>
                 Bachelor of Science in Computer Science, Multimedia University
                 of Kenya, Nairobi
                 <br></br>
