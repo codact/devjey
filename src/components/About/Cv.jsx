@@ -17,7 +17,7 @@ class Cv extends React.Component {
               paddingRight: "1rem !important",
             }}
           >
-            <span style={{ fontSize: "18px" }}>
+            <span style={{ fontSize: "20px" }}>
               <b>James Savali,</b>
             </span>
             <br></br>
@@ -125,8 +125,9 @@ class Cv extends React.Component {
                       and producing insightful reports for merchants.
                     </li>
                     <li>
-                      Reduced production bugs by 20% through collaboration with
-                      QA, enhancing app availability.
+                      Through active collaboration with the QA team, realized a
+                      20% reduction in reported production bugs, improving
+                      application availability.
                     </li>
                   </ul>
                 </div>
@@ -146,9 +147,9 @@ class Cv extends React.Component {
                       React.js and Django-based online gaming web app.
                     </li>
                     <li>
-                      Successfully rebranded assets from ArabMillionaire to
-                      Playfooz, boosting customer retention on the consumer app
-                      by 10%.
+                      Attained a complete rebrand of assets from ArabMillionaire
+                      to Playfooz, resulting in 10% more customer retention on
+                      the consumer application.
                     </li>
                     <li>
                       Achieved a web app with an intuitive user interface and
@@ -166,9 +167,9 @@ class Cv extends React.Component {
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
-                      Orchestrated a django-based platform,
+                      Orchestrated a django-based NFT auction platform,
                       successfully hosting the Dolce & Gabbana 'Collezione
-                      Genesi 1' NFT auction.
+                      Genesi 1' auction.
                     </li>
                     <li>
                       The cloth-piece based auction closed after generating $5.7
