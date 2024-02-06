@@ -1,11 +1,12 @@
 import React from "react";
+import "./About.css";
 
 class Cv extends React.Component {
   render() {
     return (
       <div className="p-1">
         <hr></hr>
-        <div className="row col-md-12">
+        <div className="row">
           <div
             className="text-left col-md-5"
             style={{
@@ -13,6 +14,7 @@ class Cv extends React.Component {
               backgroundColor: "#e1e6ff85",
               paddingTop: "0.5rem",
               paddingBottom: "0.5rem",
+              paddingRight: "1rem !important",
             }}
           >
             <span style={{ fontSize: "16px" }}>
@@ -22,7 +24,7 @@ class Cv extends React.Component {
             <strong className="text-muted">Senior Software Engineer</strong>
             <br></br>
             <br></br>
-            Email: <label className="text-mutd">savalijey@gmail.com</label>
+            Email: savalijey@gmail.com
             <br></br>
             Languages: English
             <br></br>
@@ -38,35 +40,35 @@ class Cv extends React.Component {
                 <b>Skills</b>
               </h6>
             </div>
-            <div className="container-fluid row" style={{ fontSize: "13.5px" }}>
-              <div className="p-1">
-                Languages & Frameworks
-                <ul className="pl-3">
-                  <li>Python</li>
-                  <li>Flask, Flask Restful</li>
-                  <li>Django, DRF, Graphene</li>
-                  <li>Patterns: (MVC), Rest APIs and GraphQL</li>
-                  <li>Bs4, Selenium, Scrapy, Numpy, Pandas</li>
-                  <li>PostgreSQL, MySQL, MongoDB</li>
-                  <li>Javascript</li>
-                  <li>React, react-redux, react hooks</li>
-                  <li>HTML/SCSS/Bootstrap/Tailwind</li>
-                </ul>
-              </div>
-              <div className="p-1">
-                Other Tech Skills & Tools
-                <ul className="pl-3">
-                  <li>Integration of payment solutions</li>
-                  <li>
-                    CI/CD: Github Actions, AWS, <br /> Digital Ocean
-                  </li>
-                  <li>Unit, end-to-end & integration testing</li>
-                  <li>Docker and container Orchestration</li>
-                  <li>Logging & Metrics tools: cloudwatch, Datadog</li>
-                  <li>Testing & linting: TravisCI, CircleCI</li>
-                  <li>Data scraping, analysis and visualization</li>
-                </ul>
-              </div>
+            <div className="row" style={{ fontSize: "13.5px" }}>
+              Languages, Frameworks & Tools
+              <ul className="pl-3 pt-2">
+                <li>Python</li>
+                <li>Flask, Flask Restful</li>
+                <li>Django, DRF, Graphene</li>
+                <li>Patterns: (MVC), Rest APIs and GraphQL</li>
+                <li>Bs4, Selenium, Scrapy, Numpy, Pandas</li>
+                <li>PostgreSQL, MySQL, MongoDB</li>
+                <li>Javascript</li>
+                <li>React, react-redux, react hooks</li>
+                <li>HTML/SCSS/Bootstrap/Tailwind</li>
+                <li>Integration of payment service providers</li>
+                <li>
+                  CI/CD: Github Actions, AWS, <br /> Digital Ocean
+                </li>
+                <li>Unit, end-to-end & integration testing</li>
+                <li>Docker and container Orchestration</li>
+                <li>Logging & Metrics tools: cloudwatch, Datadog</li>
+                <li>Testing & linting: TravisCI, CircleCI</li>
+                <li>Data scraping, analysis and visualization</li>
+              </ul>
+              Other Skills
+              <ul className="pl-3 pt-2">
+                <li>Fostering collaboration to drive innovation.</li>
+                <li>Swiftly acclimating to unfamiliar circumstances.</li>
+                <li>Promoting effective communication within teams.</li>
+                <li>Committed to ongoing learning and growth.</li>
+              </ul>
               <div className="text-left text-sm" style={{ fontSize: "13.5px" }}>
                 <h6>
                   <b>Education</b>
@@ -79,8 +81,8 @@ class Cv extends React.Component {
                 </label>
                 <p className=" text-mute">
                   Hands on development of applications in school enhanced my
-                  problem-solving skills and deepened my commitment to
-                  continuous learning in computer science.
+                  logical reasoning and deepened my commitment to continuous
+                  learning in computer science.
                 </p>
               </div>
             </div>
@@ -91,13 +93,13 @@ class Cv extends React.Component {
             style={{ fontSize: "13.5px" }}
           >
             <p className=" text-mute">
-              With 5 years of hands-on experience, I am a proficient backend
-              software engineer specializing in scalable application development
-              with expertise in Python and Javascript. My strong problem-solving
-              skills, collaborative approach, and commitment to ongoing
-              professional development ensure the timely delivery of
-              high-quality software solutions, grounded in software engineering
-              principles.
+              With 5 years of hands-on experience, excels as a proficient
+              backend software engineer specializing in scalable application
+              development with expertise in Python and JavaScript. Demonstrates
+              strong proficiency in analyzing and resolving complex issues.
+              Fosters collaboration and maintains a commitment to ongoing
+              professional development, ensuring the timely delivery of
+              high-quality software solutions.
             </p>
 
             <div className="text-left text-sm" style={{ fontSize: "13.5px" }}>
@@ -115,8 +117,12 @@ class Cv extends React.Component {
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
-                      Integrating and maintaining 2 rewards & payment solutions
-                      using Python and Django.
+                      Integrating and maintaining 2 rewards & payment service
+                      providers using Python and Django.
+                    </li>
+                    <li>
+                      Performing ETL processes on over 3 million data records
+                      and producing insightful reports for merchants.
                     </li>
                     <li>
                       Through active collaboration with the QA team, realized a
@@ -141,6 +147,11 @@ class Cv extends React.Component {
                       React.js and Django-based online gaming web app.
                     </li>
                     <li>
+                      Attained a complete rebrand of assets from ArabMillionaire
+                      to Playfooz, resulting in 10% more customer retention on
+                      the consumer application.
+                    </li>
+                    <li>
                       Achieved a web app with an intuitive user interface and
                       20k+ active users.
                     </li>
@@ -152,7 +163,7 @@ class Cv extends React.Component {
                 >
                   <b>Senior Backend Engineer at UNXD</b>
                   <br></br>
-                  <label className="text-muted">June 2021 - Oct 2021</label>
+                  <label className="text-muted">June 2021 - October 2021</label>
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
@@ -211,9 +222,9 @@ class Cv extends React.Component {
                     applications, leveraging Python, Django, and React.
                   </li>
                   <li>
-                    Accomplished a 50% reduction in wait time by implementing
-                    Slack-application based algorithm to optimize internal
-                    office booking for staff members.
+                    Achieved 50% wait time reduction by implementing a
+                    Slack-based algorithm for optimizing internal office
+                    booking.
                   </li>
 
                   {/* <li>
