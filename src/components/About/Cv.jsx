@@ -42,7 +42,7 @@ class Cv extends React.Component {
             </div>
             <div className="row" style={{ fontSize: "13.5px" }}>
               Languages, Frameworks & Tools
-              <ul className="pl-3 pt-2">
+              <ul className="pl-3 pt-2 pr-1">
                 <li>Python</li>
                 <li>Flask, Flask Restful</li>
                 <li>Django, DRF, Graphene</li>
