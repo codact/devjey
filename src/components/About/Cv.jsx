@@ -17,7 +17,7 @@ class Cv extends React.Component {
               paddingRight: "1rem !important",
             }}
           >
-            <span style={{ fontSize: "16px" }}>
+            <span style={{ fontSize: "18px" }}>
               <b>James Savali,</b>
             </span>
             <br></br>
