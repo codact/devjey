@@ -73,10 +73,11 @@ class Cv extends React.Component {
                 <h6>
                   <b>Education</b>
                 </h6>
-                Bachelor of Science in Computer Science, Multimedia University
+                Bachelor of Science in Computer Science,
+                Multimedia University
                 of Kenya, Nairobi
                 <br></br>
-                <label className="text-muted">
+                <label className="text-muted date">
                   September 2015 - April 2020
                 </label>
                 <p className=" text-mute">
@@ -113,7 +114,7 @@ class Cv extends React.Component {
                 >
                   <b>Senior Backend Engineer at Teya</b>
                   <br></br>
-                  <label className="text-muted">March 2022 - Current</label>
+                  <label className="text-muted date">March 2022 - Current</label>
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
@@ -137,7 +138,7 @@ class Cv extends React.Component {
                 >
                   <b>Lead Full stack Engineer at Playfooz</b>
                   <br></br>
-                  <label className="text-muted">
+                  <label className="text-muted date">
                     November 2021 - March 2022
                   </label>
                   <br></br>
@@ -163,7 +164,7 @@ class Cv extends React.Component {
                 >
                   <b>Senior Backend Engineer at UNXD</b>
                   <br></br>
-                  <label className="text-muted">June 2021 - October 2021</label>
+                  <label className="text-muted date">June 2021 - October 2021</label>
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
@@ -195,7 +196,7 @@ class Cv extends React.Component {
                 >
                   <b>Software Engineer at Medbook Africa, Nairobi</b>
                   <br></br>
-                  <label className="text-muted">
+                  <label className="text-muted date">
                     October 2019 - December 2020
                   </label>
                   <br></br>
@@ -212,7 +213,7 @@ class Cv extends React.Component {
                 </div>
                 <b>Software Engineer at Andela, Nairobi</b>
                 <br></br>
-                <label className="text-muted">
+                <label className="text-muted date">
                   September 2018 - September 2019
                 </label>
                 <br></br>
