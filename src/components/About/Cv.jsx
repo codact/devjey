@@ -125,9 +125,8 @@ class Cv extends React.Component {
                       and producing insightful reports for merchants.
                     </li>
                     <li>
-                      Through active collaboration with the QA team, realized a
-                      20% reduction in reported production bugs, improving
-                      application availability.
+                      Reduced production bugs by 20% through collaboration with
+                      QA, enhancing app availability.
                     </li>
                   </ul>
                 </div>
@@ -147,9 +146,9 @@ class Cv extends React.Component {
                       React.js and Django-based online gaming web app.
                     </li>
                     <li>
-                      Attained a complete rebrand of assets from ArabMillionaire
-                      to Playfooz, resulting in 10% more customer retention on
-                      the consumer application.
+                      Successfully rebranded assets from ArabMillionaire to
+                      Playfooz, boosting customer retention on the consumer app
+                      by 10%.
                     </li>
                     <li>
                       Achieved a web app with an intuitive user interface and
@@ -167,9 +166,9 @@ class Cv extends React.Component {
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
-                      Orchestrated a django-based NFT auction platform,
+                      Orchestrated a django-based platform,
                       successfully hosting the Dolce & Gabbana 'Collezione
-                      Genesi 1' auction.
+                      Genesi 1' NFT auction.
                     </li>
                     <li>
                       The cloth-piece based auction closed after generating $5.7
