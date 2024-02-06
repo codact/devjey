@@ -40,8 +40,10 @@ export class About extends Component {
                 <div className="row">
                     <div className="card about-info col-md-6 mx-auto">
                         <div className="row">
-                        <button className="btn btn-warning col-md-4 d-block ml-auto mt-3" onClick={this.exportPDFWithComponent}>Download Resume</button>
+                        <button className="btn btn-warning col-md-4 d-block mr-auto mt-3" onClick={this.exportPDFWithComponent}>Download Resume</button>
                         </div>
+                        <br/>
+                        <i className='text-muted pl-0 text-italic text-sm' style={{fontSize: '12px'}}>This page is not optimized for mobile devices (Click download to view as pdf)</i>
                         <br></br>
                         <PDFExport paperSize={'A4'}
                             margin="1.5cm"
