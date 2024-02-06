@@ -126,7 +126,7 @@ class Cv extends React.Component {
                     </li>
                     <li>
                       Through active collaboration with the QA team, realized a
-                      20% reduction in reported production bugs, improving
+                      20% reduction in reported bugs, improving
                       application availability.
                     </li>
                   </ul>
@@ -167,9 +167,9 @@ class Cv extends React.Component {
                   <br></br>
                   <ul className="pl-3 text-mute">
                     <li>
-                      Orchestrated a django-based NFT auction platform,
+                      Orchestrated a django-based platform,
                       successfully hosting the Dolce & Gabbana 'Collezione
-                      Genesi 1' auction.
+                      Genesi 1' NFT auction.
                     </li>
                     <li>
                       The cloth-piece based auction closed after generating $5.7
